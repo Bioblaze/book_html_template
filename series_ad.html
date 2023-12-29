@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Series Advertisement Page</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center; /* Center align text */
+        }
+        .page {
+            width: 8.5in;
+            min-height: 11in;
+            margin: auto;
+            padding: 1in; /* Margins around the content */
+            box-sizing: border-box; /* Include padding in width/height calculations */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; /* Space between top content and book covers */
+        }
+        .title {
+            font-size: 24pt;
+            margin-bottom: 0.25in;
+        }
+        .subtitle {
+            font-size: 18pt;
+            margin-bottom: 0.25in;
+        }
+        .description {
+            font-size: 12pt;
+            margin-bottom: 0.5in;
+            text-align: justify;
+        }
+        .book-covers {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 0.25in;
+        }
+        .book-cover {
+            width: 160px; /* Standard width for a book cover */
+            height: 240px; /* Standard height for a book cover */
+            background: url('https://placehold.co/160x240/000000/FFFFFF/png') no-repeat center center;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div>
+            <div class="title">Exciting Book Series Title</div>
+            <div class="subtitle">An Unforgettable Journey</div>
+            <div class="description">
+                Explore the captivating world of our book series. Each volume brings new adventures, unforgettable characters, and thrilling stories that will keep you on the edge of your seat. Dive in and discover your next great read!
+            </div>
+        </div>
+        <div>
+            <div class="book-covers">
+                <div class="book-cover"></div>
+                <div class="book-cover"></div>
+                <div class="book-cover"></div>
+            </div>
+            <div class="book-covers">
+                <div class="book-cover"></div>
+                <div class="book-cover"></div>
+                <div class="book-cover"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Image Page</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .page {
+            width: 8.5in;
+            height: 11in;
+            padding: 1in; /* Margins around the content */
+            box-sizing: border-box; /* Include padding in width/height calculations */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .paragraph {
+            font-size: 14pt;
+            text-align: justify;
+            margin-bottom: 1in; /* Spacing before image */
+            width: 6.5in; /* Align with image width */
+        }
+        img {
+            width: 6.5in; /* Full width minus the padding */
+            height: 4.5in; /* Half of the remaining height minus padding */
+            object-fit: cover; /* Ensures image covers the div completely */
+        }
+        .caption {
+            font-size: 12pt;
+            text-align: center;
+            margin-top: 0.25in; /* Spacing after image */
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="paragraph">
+            This is a sample paragraph that can be replaced with your actual content. It provides information, context, or any relevant details that precede the image below.
+        </div>
+        <img src="https://placehold.co/816x528" alt="Placeholder Image">
+        <div class="caption">Caption describing the image</div>
+    </div>
+</body>
+</html>

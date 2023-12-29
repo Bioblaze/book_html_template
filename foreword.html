@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Foreword Page</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            text-align: justify; /* Justify align text */
+        }
+        .page {
+            width: 8.5in;
+            height: 11in;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            margin: auto;
+            padding: 1in; /* Margins around the content */
+        }
+        .foreword-title {
+            font-size: 18pt;
+            font-weight: bold;
+            margin-bottom: 0.5in;
+        }
+        .foreword-content {
+            font-size: 12pt;
+        }
+        .author-signature {
+            font-size: 12pt;
+            margin-top: 0.5in;
+            text-align: right;
+            position: relative;
+            left: -20%; /* Pulls the author line 20% to the left */
+            width: 100%;
+        }
+        .footer {
+            position: absolute;
+            bottom: 1in;
+            right: 1in; /* Align page number to the right */
+            font-size: 12pt;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="foreword-title">Foreword</div>
+        <div class="foreword-content">
+            <!-- Foreword content goes here -->
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+        </div>
+        <div class="author-signature">
+            Author of the Foreword<br>
+            Date
+        </div>
+        <div class="footer">Page Number</div>
+    </div>
+</body>
+</html>

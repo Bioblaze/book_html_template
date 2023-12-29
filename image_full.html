@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Image Page</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .page {
+            width: 8.5in;
+            height: 11in;
+            padding: 1in; /* Margins around the content */
+            box-sizing: border-box; /* Include padding in width/height calculations */
+            position: relative; /* Needed for absolute positioning of the image */
+        }
+        img {
+            position: absolute; /* Absolute positioning */
+            top: 1in; /* Align with page padding */
+            left: 1in; /* Align with page padding */
+            width: 6.5in; /* Full width minus the padding */
+            height: 9in; /* Full height minus the padding */
+        }
+        .caption {
+            position: absolute;
+            bottom: 1.1in; /* Position above the bottom padding */
+            left: 1in; /* Align with page padding */
+            width: 6.5in; /* Width aligned with image */
+            font-size: 12pt;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <img src="https://placehold.co/816x1056" alt="Placeholder Image">
+        <div class="caption">Caption describing the image</div>
+    </div>
+</body>
+</html>
